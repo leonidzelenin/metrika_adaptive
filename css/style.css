@@ -65,7 +65,7 @@ body {
   color: #121212;
 }
 
-.services {
+.services_link {
   display: block;
   width: 255px;
   height: 67px;
@@ -128,6 +128,85 @@ body {
   background-color: #ad1818;
 }
 
+.black_container {
+  margin: auto;
+  width: 100%;
+  background: #121212;
+}
+
+.services_inner {
+  margin: auto;
+  padding-top: 151px;
+  width: 1150px;
+}
+
+.services_title {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.services_box_wrapper {
+  margin-bottom: 106px; 
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 11px;
+  row-gap: 85px;
+}
+
+.services_box {
+  position: relative;
+  width: 569px;
+}
+
+.services_box_img {
+  margin-bottom: 25px;
+  
+}
+
+.price_conditions {
+  position: absolute;
+  top: 31px;
+  left: 30px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 40px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  padding-left: 21px;
+  padding-right: 21px;
+  height: 40px;
+  background: #ad1818;
+  border-radius: 5px;
+}
+
+.services_example {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+.order_services_link {
+  display: block;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 153px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  width: 100%;
+  height: 153px;
+  background: #AD1818;
+  border-radius: 5px;
+}
+
 /*ADAPTIVE tablet*/
 
 @media (max-width: 1199px) {
@@ -163,6 +242,22 @@ body {
 
   .study_projects {
     margin-bottom: 103px;
+  }
+
+  .services_box_wrapper {
+    margin-bottom: 80px; 
+    column-gap: 8px;
+    row-gap: 80px;
+  }
+
+  .services_box {
+    position: relative;
+    width: 100%;
+  }
+
+  .services_box_img {
+    margin-bottom: 15px;
+    width: 100%;
   }
 }
 
@@ -204,7 +299,7 @@ body {
     line-height: 30px;
   }
 
-  .services {
+  .services_link {
     width: 194px;
     height: 51px;
     border-radius: 3.80172px;
@@ -223,5 +318,11 @@ body {
     font-size: 22px;
     height: 100px;
     line-height: 100px;
+  }
+
+  .services_title {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 19px;
   }
 }
