@@ -128,16 +128,18 @@ body {
   background-color: #ad1818;
 }
 
+.services {
+  background-color: black;
+}
+
 .black_container {
   margin: auto;
-  width: 100%;
-  background: #121212;
+  width: 1150px;
 }
 
 .services_inner {
   margin: auto;
   padding-top: 151px;
-  width: 1150px;
 }
 
 .services_title {
@@ -151,7 +153,7 @@ body {
 }
 
 .services_box_wrapper {
-  margin-bottom: 106px; 
+  margin-bottom: 106px;
   display: flex;
   flex-wrap: wrap;
   column-gap: 11px;
@@ -163,9 +165,10 @@ body {
   width: 569px;
 }
 
-.services_box_img {
+.image {
   margin-bottom: 25px;
-  
+  width: 100%;
+  object-fit: cover;
 }
 
 .price_conditions {
@@ -207,6 +210,8 @@ body {
   border-radius: 5px;
 }
 
+
+
 /*ADAPTIVE tablet*/
 
 @media (max-width: 1199px) {
@@ -244,20 +249,46 @@ body {
     margin-bottom: 103px;
   }
 
+  .black_container {
+    margin: auto;
+    width: 100%;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+  .black_container {
+    width: 100%;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
   .services_box_wrapper {
-    margin-bottom: 80px; 
-    column-gap: 8px;
+    margin-bottom: 80px;
+    column-gap: 10px;
     row-gap: 80px;
   }
 
   .services_box {
-    position: relative;
-    width: 100%;
+    width: calc(50% - 5px);
   }
 
-  .services_box_img {
+  .image {
     margin-bottom: 15px;
-    width: 100%;
+  }
+
+  .price_conditions {
+    left: 32px;
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 27px;
+    padding-right: 27px;
+    height: 40px;
+    border-radius: 5px;
+  }
+
+  .services_example {
+    font-size: 25px;
+    line-height: 34px;
   }
 }
 
@@ -324,5 +355,48 @@ body {
     margin-bottom: 20px;
     font-size: 14px;
     line-height: 19px;
+  }
+
+  .black_container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .services_box_wrapper {
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+  }
+
+  .services_box {
+    width: 100%;
+  }
+
+  .image {
+    margin-bottom: 10px;
+  }
+
+  .price_conditions {
+    top: 23px;
+    left: 24px;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 30px;
+    border-radius: 3.80172px;
+  }
+
+  .services_example {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .order_services_link {
+    font-size: 22.8103px;
+    line-height: 100px;
+    height: 100px;
+    border-radius: 3.80172px;
   }
 }
