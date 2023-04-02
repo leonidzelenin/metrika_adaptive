@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="icon" href="/icons/favicon.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet"/>
@@ -46,21 +46,33 @@
             <h2 class="about_title" id="projects">проекты</h2>
             <div class="projects_inner">
                 <div class="project_example">
-                    <img class="project_example_image" src="./resources/red-appartment.png" alt="ЖК ПРАВОБЕРЕЖНЫЙ">
+                    <picture>
+                        <source media="(max-width: 500px)" srcset="./resources/red-appartment-mobile.png">
+                        <source media="(max-width: 1199px)" srcset="./resources/red-appartment-tablet.png">
+                        <img class="project_example_image" src="./resources/red-appartment.png" alt="ЖК ПРАВОБЕРЕЖНЫЙ">
+                    </picture>
                     <h3 class="project_example_title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
                     <a class="about_link" href="/">Подробнее →</a>
                 </div>
             </div>
             <div class="projects_inner">
                 <div class="project_example">
-                    <img class="project_example_image" src="./resources/yellow-appartment.png" alt="ЖК НОРВЕЖСКИЙ ПАРК">
+                    <picture>
+                        <source media="(max-width: 500px)" srcset="./resources/yellow-appartment-mobile.png">
+                        <source media="(max-width: 1199px)" srcset="./resources/yellow-appartment-tablet.png">
+                        <img class="project_example_image" src="./resources/yellow-appartment.png" alt="ЖК НОРВЕЖСКИЙ ПАРК">
+                    </picture>
                     <h3 class="project_example_title">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
                     <a class="about_link" href="/">Подробнее →</a>
                 </div>
             </div>
             <div class="projects_inner">
                 <div class="project_example">
-                    <img class="project_example_image" src="./resources/grey-appartment.png" alt="ЖК СОСНОВСКИЕ ОЗЕРА">
+                    <picture>
+                        <source media="(max-width: 500px)" srcset="./resources/grey-appartment-mobile.png">
+                        <source media="(max-width: 1199px)" srcset="./resources/grey-appartment-tablet.png">
+                        <img class="project_example_image" src="./resources/grey-appartment.png" alt="ЖК СОСНОВСКИЕ ОЗЕРА">
+                    </picture>
                     <h3 class="project_example_title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
                     <a class="about_link" href="/">Подробнее →</a>
                 </div>
@@ -97,9 +109,16 @@
                 <a class="order_services_link" href="#projects">Заказать услугу</a>
             </div>
         </div>
-    </section>    
-    
-    
+    </section> 
+    <section class="feedback">
+        <div class="container">
+            <div class="feedback_inner">
+                <h2 class="about_title" id="about">отзывы</h2>
+            </div>
+        </div>
+
+
+    </section>   
 </body>
 </html>
 
