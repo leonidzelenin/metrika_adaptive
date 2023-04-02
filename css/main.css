@@ -2,6 +2,7 @@
 @import "../styles.css/about.css";
 @import "../styles.css/projects.css";
 @import "../styles.css/services.css";
+@import "../styles.css/feedback.css";
 
 html {
   scroll-behavior: smooth;
@@ -18,8 +19,6 @@ body {
   margin: 0 auto;
   width: 1150px;
 }
-
-
 
 /*ADAPTIVE tablet*/
 
