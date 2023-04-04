@@ -6,16 +6,16 @@
 .feedback_box_wrapper {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 51px;
+  column-gap: 5px;
   row-gap: 50px;
 }
 
 .feedback_box {
-  width: 528px;
+  width: calc(50% - 25px);
 }
 
-.box_big {
-  width: 861px;
+.feedback_box:last-child:nth-child(2n + 1) {
+  width: 75%;
 }
 
 .feedback_owner {
@@ -51,10 +51,6 @@
     width: calc(50% - 5px);
   }
 
-  .box_big {
-    width: 694px;
-  }
-
   .feedback_owner {
     font-size: 35px;
     line-height: 48px;
@@ -79,7 +75,8 @@
     row-gap: 80px;
   }
 
-  .feedback_box {
+  .feedback_box,
+  .feedback_box:last-child:nth-child(2n + 1) {
     width: 100%;
   }
 
