@@ -9,6 +9,26 @@
   column-gap: 104px;
 }
 
+.phone-number:before,
+.email:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 24px;
+  height: 24px;
+  top: -48px;
+  background-repeat: no-repeat;
+}
+
+.phone-number:before {
+  background-image: url(../icons/phone-icon.png);
+}
+
+.email:before {
+  background-image: url(../icons/mail-icon.png);
+  color: rgb(0, 0, 0);
+}
+
 .phone-number {
   position: relative;
   font-weight: 400;
@@ -17,17 +37,6 @@
   letter-spacing: -0.02em;
   color: #121212;
   text-decoration: none;
-}
-
-.phone-number:before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 24px;
-  height: 24px;
-  top: -26px;
-  background-image: url(../icons/phone-icon.png);
-  background-repeat: no-repeat;
 }
 
 .email {
@@ -42,33 +51,57 @@
   border-bottom: 2.5px solid rgb(129, 129, 129);
 }
 
-.email:before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 24px;
-  height: 24px;
-  top: -26px;
-  background-image: url(../icons/mail-icon.png);
-  background-repeat: no-repeat;
-  color: rgb(0, 0, 0);
-}
-
 /*ADAPTIVE tablet*/
 
 @media (max-width: 1199px) {
+  .contacts_inner {
+    margin-bottom: 80px;
+    padding-top: 120px;
+  }
+
+  .contacts_wrapper {
+    column-gap: 114px;
+  }
+
+  .phone-number,
+  .email {
+    font-size: 45px;
+    line-height: 60px;
+  }
 }
 
 /*ADAPTIVE mobile*/
 
 @media (max-width: 767px) {
+  .contacts_inner {
+    margin-bottom: 80px;
+    padding-top: 80px;
+  }
 
-    .contacts_wrapper {
-        margin-top: 74px;
-        display: flex;
-        flex-direction: column;
-        row-gap: 58px;
-      }
+  .contacts_wrapper {
+    margin-top: 58px;
+    flex-direction: column;
+    row-gap: 58px;
+  }
 
-    
+  .phone-number:before,
+  .email:before {
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+    top: -37px;
+  }
+
+  .phone-number,
+  .email {
+    font-size: 35px;
+line-height: 46px;
+  }
+
+  .email {
+    color: #121212;
+    padding-bottom: 0px;
+  border-bottom: 0px;
+  }
+
 }
