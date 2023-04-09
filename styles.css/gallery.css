@@ -101,6 +101,14 @@
     line-height: 27px;
   }
 
+  .gallery__slides {
+    height: 536px;
+  }
+
+  .gallery_box_image {
+    height: 536px;
+  }
+
   .gallery_box_image_title_wrapper {
     bottom: 80px;
   }
@@ -125,6 +133,14 @@
   .gallery__title {
     font-size: 14px;
     line-height: 19px;
+  }
+
+  .gallery__slides {
+    height: 408px;
+  }
+
+  .gallery_box_image {
+    height: 408px;
   }
 
   .gallery_box_image_title_wrapper {
