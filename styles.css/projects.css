@@ -1,3 +1,5 @@
+/*MAIN*/
+
 .project_example_title {
   margin-bottom: 15px;
   font-weight: 400;
@@ -8,9 +10,9 @@
 }
 
 .project_example_image {
-    width: 100%;
-    margin-bottom: 15px;
-  }
+  width: 100%;
+  margin-bottom: 15px;
+}
 
 .about_link {
   margin-bottom: 88px;
@@ -59,6 +61,10 @@
     object-fit: cover;
   }
 
+  .about_link {
+    margin-bottom: 80px;
+  }
+
   .study_projects {
     margin-bottom: 103px;
   }
@@ -75,7 +81,10 @@
 
   .project_example_image {
     margin-bottom: 10px;
+  }
 
+  .about_link {
+    margin-bottom: 49px;
   }
 
   .study_projects {
@@ -87,7 +96,7 @@
 }
 
 @media (max-width: 500px) {
-    .project_example_image {
+  .project_example_image {
     height: 250px;
-      }
-    }
+  }
+}

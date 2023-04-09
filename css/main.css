@@ -31,48 +31,6 @@ body {
     padding-left: 17px;
     padding-right: 17px;
   }
-
-  .black_container {
-    margin: auto;
-    width: 100%;
-    padding-left: 17px;
-    padding-right: 17px;
-  }
-
-  .black_container {
-    width: 100%;
-    padding-left: 17px;
-    padding-right: 17px;
-  }
-
-  .services_box_wrapper {
-    margin-bottom: 80px;
-    column-gap: 10px;
-    row-gap: 80px;
-  }
-
-  .services_box {
-    width: calc(50% - 5px);
-  }
-
-  .image {
-    margin-bottom: 15px;
-  }
-
-  .price_conditions {
-    left: 32px;
-    font-size: 20px;
-    line-height: 40px;
-    padding-left: 27px;
-    padding-right: 27px;
-    height: 40px;
-    border-radius: 5px;
-  }
-
-  .services_example {
-    font-size: 25px;
-    line-height: 34px;
-  }
 }
 
 /*ADAPTIVE mobile*/
@@ -81,54 +39,5 @@ body {
   .container {
     padding-left: 13px;
     padding-right: 13px;
-  }
-
-  .services_title {
-    margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 19px;
-  }
-
-  .black_container {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .services_box_wrapper {
-    margin-bottom: 60px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 60px;
-  }
-
-  .services_box {
-    width: 100%;
-  }
-
-  .image {
-    margin-bottom: 10px;
-  }
-
-  .price_conditions {
-    top: 23px;
-    left: 24px;
-    font-size: 14px;
-    line-height: 30px;
-    padding-left: 24px;
-    padding-right: 24px;
-    height: 30px;
-    border-radius: 3.80172px;
-  }
-
-  .services_example {
-    font-size: 18px;
-    line-height: 25px;
-  }
-
-  .order_services_link {
-    font-size: 22.8103px;
-    line-height: 100px;
-    height: 100px;
-    border-radius: 3.80172px;
   }
 }
