@@ -106,7 +106,17 @@
                         <h3 class="services_example">Комплектация</h3>
                     </div>
                 </div>
-                <a class="order_services_link" href="#projects">Заказать услугу</a>
+                <button class="js-btn btn">Заказать услугу</button>
+
+                <div class="js-popup popup">
+                    <div class="js-popup__content popup__content">
+                        <p class="popup__title">Заказать услугу</p>
+                        <p class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</p>
+                        <button class="send-btn">Отправить</button>
+
+                        <div class="js-popup__close-btn popup__close-btn"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </section> 
@@ -209,7 +219,9 @@
             </div>
         </div>
     </section>
-    <script src="gallery.js"></script>   
+
+    <script src="./js/gallery.js"></script>  
+    <script src="./js/popup.js"></script>  
 </body>
 </html>
 
