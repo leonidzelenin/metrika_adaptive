@@ -17,15 +17,25 @@
         <div class="container">
             <div class="header_inner">
                 <a href="/"><img class="logo" src="./resources/logo.png" alt="Метрика" /></a>
-                <nav class="nav">
-                    <a class="nav__link" href="#about">о нас</a>
-                    <a class="nav__link" href="#projects">проекты</a>
-                    <a class="nav__link" href="#services">услуги</a>
-                    <a class="nav__link" href="#contacts">контакты</a>
-                </nav>
-                <div class="burger-btn">
-                    
-                </div>
+                <ul class="nav">
+                    <li><a class="nav__link" href="#about">о нас</a></li>
+                    <li><a class="nav__link" href="#projects">проекты</a></li>
+                    <li><a class="nav__link" href="#services">услуги</a></li>
+                    <li><a class="nav__link" href="#contacts">контакты</a></li>
+                </ul>
+                <div class="js-burger-btn burger-btn"></div>
+
+                <div class="js-burger burger">
+                    <div class="js-burger__content burger__content">
+                        <a href="/"><img class="logo" src="./resources/logo.png" alt="Метрика" /></a>
+                        <ul class="burger_nav">
+                            <li><a class="burger_nav__link" href="#about">о нас</a></li>
+                            <li><a class="burger_nav__link" href="#projects">проекты</a></li>
+                            <li><a class="burger_nav__link" href="#services">услуги</a></li>
+                            <li><a class="burger_nav__link" href="#contacts">контакты</a></li>
+                        </ul>
+                    </div> 
+                </div>   
             </div>
         </div>
     </section>
@@ -234,14 +244,15 @@
                     <li><a href="#projects">проекты</a></li>
                     <li><a href="#services">услуги</a></li>
                     <li><a href="#contacts">контакты</a></li>
-                  </ul>
-                  <p class="footer-copyright">студия дизайна интерьера Метрика — 2023</p>
+                </ul>
+                <p class="footer-copyright">студия дизайна интерьера Метрика — 2023</p>
             </div>
         </div>
     </section>
 
-    <script src="./js/gallery.js"></script>  
+    <script src="./js/gallery.js"></script>
     <script src="./js/popup.js"></script>  
+    <script src="./js/burger.js"></script>  
 </body>
 </html>
 
