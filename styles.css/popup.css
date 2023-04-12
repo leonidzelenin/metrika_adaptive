@@ -28,9 +28,9 @@
 .popup__content {
   position: relative;
   width: 777px;
-  padding: 32px 34px 86px 59px;
+  padding: 32px 45px 86px 45px;
   max-height: 100%;
-  overflow-y: scroll;
+  overflow-y: auto;
   background-color: #ffffff;
   border-radius: 10px;
 }
@@ -47,7 +47,7 @@
 }
 
 .popup__text {
-  margin-bottom: 372px;
+  margin-bottom: 60px;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
@@ -88,6 +88,8 @@
 
 .send-btn {
   display: block;
+  box-sizing: border-box;
+  padding: 0;
   font-weight: 400;
   font-size: 20px;
   line-height: 67px;
@@ -101,6 +103,29 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.input {
+  display: block;
+  padding: 0;
+  margin-bottom: 50px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 44px;
+  letter-spacing: -0.03em;
+  color: #000000;
+  opacity: 0.5;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+
+.input_last {
+  margin-bottom: 90px;
+}
+
+input:focus {
+  outline: none;
 }
 
 /*ADAPTIVE tablet*/
@@ -130,14 +155,27 @@
 
   .popup__title {
     margin-bottom: 11px;
-    padding-top: 80px;
+    padding-top: 35px;
     font-size: 25px;
     line-height: 34px;
   }
-  
+
   .popup__text {
+    margin: auto;
+    margin-bottom: 60px;
+    width: 209px;
     font-size: 14px;
     line-height: 19px;
   }
 
+  .input {
+    margin-bottom: 40px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 35px;
+  }
+
+  .input_last {
+    margin-bottom: 70px;
+  }
 }
