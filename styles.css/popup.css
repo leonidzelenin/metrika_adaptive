@@ -29,7 +29,7 @@
 .popup__content {
   position: relative;
   width: 777px;
-  padding: 32px 45px 86px 45px;
+  padding: 32px 62px 82px 56px;
   max-height: 100%;
   overflow-y: auto;
   background-color: #ffffff;
@@ -38,7 +38,7 @@
 
 .popup__title {
   margin-bottom: 4px;
-  padding-top: 94px;
+  padding-top: 63px;
   font-weight: 400;
   font-size: 45px;
   line-height: 61px;
@@ -48,7 +48,7 @@
 }
 
 .popup__text {
-  margin-bottom: 60px;
+  margin-bottom: 56px;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
@@ -59,7 +59,7 @@
 
 .popup__close-btn {
   position: absolute;
-  right: 34px;
+  right: 20px;
   top: 32px;
   width: 50px;
   height: 50px;
@@ -122,7 +122,7 @@
 }
 
 .input_last {
-  margin-bottom: 90px;
+  margin-bottom: 79px;
 }
 
 input:focus {

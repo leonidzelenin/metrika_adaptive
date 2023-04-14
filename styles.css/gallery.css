@@ -12,6 +12,7 @@
 }
 
 .gallery__title {
+  padding-top: 37px;
   font-weight: 400;
   font-size: 22px;
   line-height: 30px;
@@ -51,7 +52,7 @@
 
 .gallery_box_image_title_wrapper {
   position: absolute;
-  bottom: 60px;
+  bottom: 61px;
   width: 100%;
 }
 
@@ -71,7 +72,7 @@
 
 .gallery__controls {
   display: flex;
-  column-gap: 14px;
+  column-gap: 24px;
 }
 
 .gallery__control-prev,

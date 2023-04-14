@@ -39,7 +39,7 @@
 }
 
 .image {
-  margin-bottom: 25px;
+  margin-bottom: 24px;
   width: 100%;
   object-fit: cover;
 }
@@ -63,7 +63,7 @@
 .services_example {
   font-weight: 400;
   font-size: 30px;
-  line-height: 41px;
+  line-height: 35px;
   letter-spacing: -0.03em;
   color: #ffffff;
 }

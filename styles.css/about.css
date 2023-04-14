@@ -39,8 +39,13 @@
 
 @media (max-width: 1199px) {
   .about_text {
+    margin-bottom: 77px;
     font-size: 35px;
     line-height: 48px;
+  }
+
+  .services_link {
+    margin-bottom: 121px;
   }
 }
 
