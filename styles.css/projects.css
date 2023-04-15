@@ -85,17 +85,21 @@
   }
 
   .project_example_image {
-    margin-bottom: 10px;
+    margin-bottom: 19px;
   }
 
   .about_link {
     margin-bottom: 49px;
+    font-size: 16px;
+    line-height: 22px;
   }
 
- 
+  .about_link_last {
+    margin-bottom: 58px;
+  }
 
   .study_projects {
-    margin-bottom: 144px;
+    margin-bottom: 80px;
     font-size: 22px;
     height: 100px;
     line-height: 100px;

@@ -68,8 +68,6 @@
   color: #ffffff;
 }
 
-
-
 /*ADAPTIVE tablet*/
 
 @media (max-width: 1199px) {
@@ -119,11 +117,10 @@
 /*ADAPTIVE mobile*/
 
 @media (max-width: 767px) {
-
   .black_container {
     padding-bottom: 80px;
   }
-  
+
   .services_inner {
     padding-top: 80px;
   }
@@ -140,7 +137,7 @@
   }
 
   .services_box_wrapper {
-    margin-bottom: 60px;
+    margin-bottom: 57px;
     display: flex;
     flex-direction: column;
     row-gap: 60px;
@@ -167,8 +164,6 @@
 
   .services_example {
     font-size: 18px;
-    line-height: 25px;
+    line-height: 27px;
   }
-
-
 }

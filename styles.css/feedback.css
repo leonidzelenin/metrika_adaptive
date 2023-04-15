@@ -73,14 +73,13 @@
 /*ADAPTIVE mobile*/
 
 @media (max-width: 767px) {
-
   .feedback_inner {
     margin-bottom: 80px;
     padding-top: 80px;
   }
   .feedback_box_wrapper {
     flex-direction: column;
-    row-gap: 80px;
+    row-gap: 73px;
   }
 
   .feedback_box,
@@ -99,6 +98,6 @@
     line-height: 22px;
   }
   .feedback_body {
-    margin-bottom: 35px;
+    margin-bottom: 20px;
   }
 }

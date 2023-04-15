@@ -134,6 +134,7 @@
   }
 
   .gallery__title {
+    padding-top: 5px;
     font-size: 14px;
     line-height: 19px;
   }

@@ -97,13 +97,12 @@
   .phone-number,
   .email {
     font-size: 35px;
-line-height: 46px;
+    line-height: 46px;
   }
 
   .email {
     color: #121212;
     padding-bottom: 0px;
-  border-bottom: 0px;
+    border-bottom: 0px;
   }
-
 }
